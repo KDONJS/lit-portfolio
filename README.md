@@ -1,27 +1,28 @@
-# Portafolio
+# Portafolio Personal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y experiencia. Este portafolio es un reflejo de mi trayectoria como desarrollador y diseñador.
 
-## Development server
+## 📖 Contenido
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Inicio**: Una breve introducción sobre mí.
+- **Proyectos**: Exhibición de los proyectos en los que he trabajado.
+- **Habilidades**: Las tecnologías y herramientas que manejo.
+- **Contacto**: Una sección donde puedes encontrarme y conectarte conmigo.
 
-## Code scaffolding
+## 🔧 Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend**: Angular, SCSS, Typescript
+- **Animaciones**: ScrollReveal, Typed.js
+- **Otros**: FileSaver para la descarga de CV
 
-## Build
+## ✨ Características
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Efecto de Escritura**: Uso de Typed.js para simular el efecto de escritura en la sección de introducción.
+2. **Revelación de Elementos al Desplazarse**: Con ScrollReveal, los elementos se muestran suavemente a medida que el usuario se desplaza.
+3. **Descarga de CV**: Funcionalidad para descargar mi CV en formato PDF.
 
-## Running unit tests
+## 🚀 Instalación y Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clona este repositorio:
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
