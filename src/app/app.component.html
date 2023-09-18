@@ -1,39 +1,5 @@
     <div class="container">
-        <!-- --------------- HEADER --------------- -->
-        <nav id="header">
-            <div class="nav-logo">
-                <p class="nav-name">Doe</p>
-                <span>.</span>
-            </div>
-            <div class="nav-menu" id="myNavMenu">
-                <ul class="nav_menu_list">
-                    <li class="nav_list">
-                        <a href="#home" class="nav-link active-link">Home</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#about" class="nav-link">About</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#projects" class="nav-link">Projects</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#contact" class="nav-link">Contact</a>
-                        <div class="circle"></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-button">
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-            </div>
-            <div class="nav-menu-btn">
-                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-            </div>
-        </nav>
-
-
+        <app-navbar></app-navbar>
         <!-- -------------- MAIN ---------------- -->
         <main class="wrapper">
             <!-- -------------- FEATURED BOX ---------------- -->
@@ -52,7 +18,7 @@
                     </div>
                     <div class="featured-text-btn">
                         <button class="btn blue-btn">Hire Me</button>
-                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                        <button class="btn"  (click)="downloadPDF()">Download CV <i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
                         <div class="icon"><i class="uil uil-instagram"></i></div>
@@ -89,7 +55,10 @@
                                 WordPress.
                             </p>
                             <div class="about-btn">
-                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                                <button class="btn" (click)="downloadPDF()">
+                                    Download CV <i class="uil uil-import"></i>
+                                  </button>
+                                  
                             </div>
                         </div>
                     </div>
