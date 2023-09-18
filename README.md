@@ -28,14 +28,14 @@ Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y
    git clone [URL_DEL_REPOSITORIO]
 
 
-2. Clona este repositorio:
+2. Iniciar node:
    ```bash
    npm install
 
-3. Clona este repositorio:
+3. Instalar dependencias de animaciones:
    ```bash
    npm install scrollreveal
 
-4. Clona este repositorio:
+4. Instalar dependencias de animaciones:
    ```bash
    npm install typed.js
