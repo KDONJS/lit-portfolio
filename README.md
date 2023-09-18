@@ -27,7 +27,6 @@ Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y
    ```bash
    git clone [URL_DEL_REPOSITORIO]
 
-
 2. Iniciar node:
    ```bash
    npm install
