@@ -26,3 +26,16 @@ Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y
 1. Clona este repositorio:
    ```bash
    git clone [URL_DEL_REPOSITORIO]
+
+
+2. Clona este repositorio:
+   ```bash
+   npm install
+
+3. Clona este repositorio:
+   ```bash
+   npm install scrollreveal
+
+4. Clona este repositorio:
+   ```bash
+   npm install typed.js
